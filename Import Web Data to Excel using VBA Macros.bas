@@ -14,7 +14,7 @@ website = "https://finance.yahoo.com/quote/EURUSD%3DX?p=EURUSD%3DX"
 ' Create the object that will make the webpage request.
 Set request = CreateObject("MSXML2.XMLHTTP")
 
-' Where to go and how to go there - probably don't need to change this.
+' Where to go and how to go there .
 request.Open "GET", website, False
 
 'Get fresh data.
